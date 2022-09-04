@@ -1,6 +1,7 @@
 body {
     background: #CCC;
     max-height: 100%;
+    font-size: 14px;
 }
 
 header {
@@ -22,10 +23,15 @@ header {
 }
 
 .card {
-    background: #ffe08b;
-    border: 0;
+    border: 1px solid black;
     border-radius: 0;
+    padding: 20px;
+    
+}
+.bg-yellow {
+    background: #ffe08b;
     box-shadow: 1px 4px 15px 3px rgba(0,0,0,0.48);
+    border: 0;
 }
 
 .card img {
