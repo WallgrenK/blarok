@@ -1,0 +1,48 @@
+body {
+    background: #CCC;
+    max-height: 100%;
+}
+
+header {
+    background-color: #006aa9;
+}
+
+.bg-light {
+    background: #ff7f2a !important;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color:#ffa264;
+    color: #fff;
+}
+
+.card {
+    background: #ffe08b;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 1px 4px 15px 3px rgba(0,0,0,0.48);
+}
+
+.card img {
+    width: 70%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #006aa9;
+    box-shadow: 1px -3px 15px 3px rgba(0,0,0,0.48);
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+}
